@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Day Planner</title>
+
+    <link rel="stylesheet" href="assets/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+</head>
+<body>
+    <div id="sun"></div>
+    <div class="clouds"></div>
+
+    <header>
+        <h1>Day Planner!</h1>
+        <!-- <p>A simple planner to help organize your day.</p> -->
+        <div id="date"></div>
+        <div id="time"></div>
+    </header>
+
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col" id="hour">Time</th>
+            <th scope="col" id="note">Input</th>
+            <th scope="col" id="save">Save</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="hour" id="9" scope="row">9am</th>
+            <td class="text">
+                <input id="nine" class="input"></input>
+            </td>
+            <td>
+                <i class="fa fa-save"></i>
+            </td>
+          </tr>
+          <tr>
+            <th class="hour" id="10" scope="row">10am</th>
+            <td class="text">
+                <input id="ten" class="input"></input>
+            </td>
+            <td>
+                <i class="fa fa-save"></i>
+            </td>
+          </tr>
+          <tr>
+            <th class="hour" id="11" scope="row">11am</th>
+            <td class="text">
+                <input id="eleven" class="input"></input>
+            </td>
+            <td>
+                <i class="fa fa-save"></i>
+            </td>
+          </tr>
+          <tr>
+            <th class="hour" id="12" scope="row">12pm</th>
+            <td class="text">
+                <input id="twelve" class="input"></input>
+            </td>
+            <td>
+                <i class="fa fa-save"></i>
+            </td>
+          </tr>
+          <tr>
+            <th class="hour" id="13" scope="row">1pm</th>
+            <td class="text">
+                <input id="one" class="input"></input>
+            </td>
+            <td>
+                <i class="fa fa-save"></i>
+            </td>
+          </tr>
+          <tr>
+            <th class="hour" id="14" scope="row">2pm</th>
+            <td class="text">
+                <input id="two" class="input"></input>
+            </td>
+            <td>
+                <i class="fa fa-save"></i>
+            </td>
+          </tr>
+          <tr>
+            <th class="hour" id="15" scope="row">3pm</th>
+            <td class="text">
+                <input id="three" class="input"></input>
+            </td>
+            <td>
+                <i class="fa fa-save"></i>
+            </td>
+          </tr>
+          <tr>
+            <th class="hour" id="16" scope="row">4pm</th>
+            <td class="text">
+                <input id="four" class="input"></input>
+            </td>
+            <td>
+                <i class="fa fa-save"></i>
+            </td>
+          </tr>
+          <tr>
+            <th class="hour" id="17" scope="row">5pm</th>
+            <td class="text">
+                <input id="five" class="input"></input>
+            </td>
+            <td>
+                <i class="fa fa-save"></i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+<script src="assets/index.js"></script>
+</body>
+</html>
